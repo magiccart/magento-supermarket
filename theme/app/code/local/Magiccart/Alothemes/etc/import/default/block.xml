@@ -1,0 +1,761 @@
+<?xml version="1.0"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Footer Links]]></title>
+      <identifier><![CDATA[footer_links]]></identifier>
+      <content><![CDATA[
+<ul>
+    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+    <li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Cookie restriction notice]]></title>
+      <identifier><![CDATA[cookie_restriction_notice_block]]></identifier>
+      <content><![CDATA[<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.</p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slide Demo 1]]></title>
+      <identifier><![CDATA[slide]]></identifier>
+      <content><![CDATA[<div class="slide-block">
+        <div class="container">
+        {{widget type="magicslider/widget_slide" identifier="slide" template="magiccart/magicslider/magicslider.phtml"}}
+        <div class="hot-categories">
+	<div class="cate-box">
+		<div class="cate-tit clearfix">
+			<div class="div-1">
+				<div class="cate-name-wrap">
+					<p class="cate-name">Sound</p>
+					<p class="cate-desc">Headphone <br> CDs 4000</p>
+				</div>
+				<a href="#" class="cate-link">shop now</a>
+			</div>
+			<div class="div-2">
+				<a href="#"> 
+					<img class="img-responsive hot-cate-img" alt="Sound" src="{{media url="wysiwyg/alothemes/static/cate-product1.png"}}" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="cate-box">
+		<div class="cate-tit clearfix">
+			<div class="div-1">
+				<div class="cate-name-wrap">
+					<p class="cate-name">Electrolux </p>
+					<p class="cate-desc">ECM3200 EasySense  <br> Vacuum cleaner</p>
+				</div>
+				<a href="#" class="cate-link">shop now</a>
+			</div>
+			<div class="div-2">
+				<a href="#"> 
+					<img class="img-responsive hot-cate-img" alt="Electrolux " src="{{media url="wysiwyg/alothemes/static/cate-product2.png"}}" />
+				</a>
+			</div>
+		</div>
+	</div>
+    <div class="cate-box">
+		<div class="cate-tit clearfix">
+			<div class="div-1">
+				<div class="cate-name-wrap">
+					<p class="cate-name">SmartPhone</p>
+					<p class="cate-desc">Solution for your <br> Acer Smarphone</p>
+				</div>
+				<a href="#" class="cate-link">shop now</a>
+			</div>
+			<div class="div-2">
+				<a href="#"> 
+					<img class="img-responsive hot-cate-img" alt="SmartPhone" src="{{media url="wysiwyg/alothemes/static/cate-product3.png"}}" />
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Top]]></title>
+      <identifier><![CDATA[block_footer_top]]></identifier>
+      <content><![CDATA[<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3  col-xs-12">
+			<div class="collapsible mobile-collapsible">
+				<div class="block1 block-content-statick">
+					<a class="introduce-logo" href="#"> <img class="img-responsive logo1" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo.png"}}" />
+<img class="img-responsive logo3" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo3.png"}}" /><img class="img-responsive logo4" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo4.png"}}" /><img class="img-responsive logo5" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo5.png"}}" /><img class="img-responsive logo6" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo6.png"}}" /></a>
+					<ul class="address-list">
+						<li class="feature-icon first">
+						<p class="no-margin"><span class="tit-name">Address:</span><span class="tit-contain">Example Street 68, Mahattan, New York, USA.</span></p>
+						</li>
+						<li class="feature-icon">
+						<p><span class="tit-name">Phone:</span><span class="tit-contain">+84 912. 345. 678</span></p>
+						</li>
+						<li class="feature-icon">
+						<p><span class="tit-name">Email:</span><span class="tit-contain">suport@alothemes.com</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-xs-12">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Company</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">facebook</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Gift Cards</a></li>
+							<li><a href="#">Order Status</a></li>
+							<li><a href="#">Returns &amp; Exchanges</a></li>
+							<li><a href="#">International</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">My Account</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">facebook</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Affiliates</a></li>
+							<li><a href="#">Meet The Maker</a></li>
+							<li><a href="{{store url=""}}contacts/">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Support</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">facebook</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="#">Security</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Text Messaging</a></li>
+							<li><a href="#">Legal</a></li>
+							<li><a href="#">Supply chain</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-3  col-xs-12">
+			<div class="collapsible mobile-collapsible">
+				{{block type="tag/popular" name="tags_popular" template="tag/popular.phtml"}}
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Bottom]]></title>
+      <identifier><![CDATA[block_footer_bottom]]></identifier>
+      <content><![CDATA[<div class="container">
+    <div class="trademark-help">
+		<p>Help improve your experience on SuperMarket, <span>join our Customer Experience Improvement Program now</span>. Plus, <span>tell us what you think of this page</span> !</p>
+	</div>
+	<div class="row trademark-box">
+		<div class="col-sm-12">
+			<ul class="trademark-list-top">
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/01.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/02.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/03.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/04.jpg"}}" /> </a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/05.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/06.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/07.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/08.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/09.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/010.jpg"}}" /></a></li>
+                               <li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/011.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/012.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/013.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/014.jpg"}}" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-menu-box">
+		<div class="col-sm-12">
+			<ul class="footer-menu-list">
+				<li><a href="#">Online Shopping</a></li>
+				<li><a href="#">Promotions</a></li>
+				<li><a href="#">My Orders</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">Site Map</a></li>
+				<li><a href="#">Customer Service</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Most Populars</a></li>
+				<li><a href="#">New Arrivals</a></li>
+				<li><a href="#">Special Products</a></li>
+				<li><a href="#">Manufacturers</a></li>
+				<li><a href="#">Our Stores</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-12">
+			<ul class="footer-menu-list">
+				<li><a href="#">Shipping</a></li>
+				<li><a href="#">Payments</a></li>
+				<li><a href="#">Warantee</a></li>
+				<li><a href="#">Refunds</a></li>
+				<li><a href="#">Checkout</a></li>
+				<li><a href="#">Discount</a></li>
+				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="#">Policy</a></li>
+				<li><a href="#">Shipping</a></li>
+				<li><a href="#">Payments</a></li>
+				<li><a href="#">Returns</a></li>
+				<li><a href="#">Refunds</a></li>
+			</ul>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_map_contacts]]></title>
+      <identifier><![CDATA[block_map_contacts]]></identifier>
+      <content><![CDATA[<div class="google-map">
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8277911385558!2d-0.13108129999999998!3d51.51637529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d183f5ea3%3A0x8e1c5b00f1b16579!2zMTIgT3hmb3JkIFN0LCBTb2hvLCBMb25kb24gVzFELCBWxrDGoW5nIFF14buRYyBBbmg!5e0!3m2!1svi!2s!4v1434261501432" height="315" width="600"></iframe>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla. </p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[store_contact]]></title>
+      <identifier><![CDATA[store_contact]]></identifier>
+      <content><![CDATA[<div class="store-contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-3 col-md-3 store1">
+				<div class="store-item">
+				    <h3 class="block-title">Store 1</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 store2">
+				<div class="store-item">
+				    <h3 class="block-title">Store 2</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 store3">
+				<div class="store-item">
+				    <h3 class="block-title">Store 3</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 store4">
+				<div class="store-item">
+				    <h3 class="block-title">Store 4</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Custom Left Category  Bestseller]]></title>
+      <identifier><![CDATA[left-category]]></identifier>
+      <content><![CDATA[<div class="block left-module block-custom-left">{{widget type="magicproduct/widget_magicproduct" identifier="best-sale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[header-offer]]></title>
+      <identifier><![CDATA[header-offer]]></identifier>
+      <content><![CDATA[<!-- header-offer -->
+<div id="header-offer" class="top-banner">
+	<div class="bg-overlay"><span class="hidden">overlay</span></div>
+	<div class="container-offer">
+		<div class="promotion-offer">
+			<h2>future in your hand</h2>
+			<h3 class="des1">Enjoy the beautiful life with your family supply</h3>
+			<a href="#" class="des2">Wiew Now</a> 
+			<span class="header-offer-close"><i class="fa fa-times"><span class="hidden">header-offer-close</span></i></span>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu]]></title>
+      <identifier><![CDATA[block-right-menu]]></identifier>
+      <content><![CDATA[<div class="banner-menu"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-right.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Brand]]></title>
+      <identifier><![CDATA[brand]]></identifier>
+      <content><![CDATA[<!-- Block Brand -->
+<div class="brand">
+    {{widget type="shopbrand/widget_brand" template="magiccart/shopbrand/brand.phtml"}}
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu Banner and Sale]]></title>
+      <identifier><![CDATA[block_right_menu_banner_sale]]></identifier>
+      <content><![CDATA[<div class="menu-banner-sale">
+<div class="menu-products-sale">{{widget type="magicproduct/widget_magicproduct" identifier="megamenu-sale" template="magiccart/magicproduct/magicproduct_menu.phtml"}}</div>
+<div class="banner-menu"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-right2.jpg"}}" alt="" /></div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu 2]]></title>
+      <identifier><![CDATA[block-right-menu2]]></identifier>
+      <content><![CDATA[<div class="banner-menu banner-menu-position"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-right3.png"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Bottom Menu]]></title>
+      <identifier><![CDATA[block-bottom-menu2]]></identifier>
+      <content><![CDATA[<div class="banner-menu banner-menu-bottom"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-bottom.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Product Types]]></title>
+      <identifier><![CDATA[block-product-types]]></identifier>
+      <content><![CDATA[ <ul class="level0 dropdown">
+		<li class="level1"><a href="{{store direct_url="smart-tvs-from-sharpusa.html"}}"><span>Single product</span></a></li>
+		<li class="level1"><a href="{{store direct_url="grouped-product.html"}}"><span>Group product</span></a></li>
+		<li class="level1"><a href="{{store direct_url="configurable-product.html"}}"><span>Configurable product</span></a></li>
+		<li class="level1"><a href="{{store direct_url="samsung-galaxy-smartphone.html"}}"><span>Product with Related</span></a></li>
+		<li class="level1"><a href="{{store direct_url="samsung-galaxy-smartphone.html"}}"><span>Product with Upsell</span></a></li>
+	</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[category-banner-250]]></title>
+      <identifier><![CDATA[category-banner-250]]></identifier>
+      <content><![CDATA[<div class="row">
+    <div class="col-md-3 col-sm-3 box-banner-adv">
+		<div class="promotion">
+			<a class="hot-img" href="#">
+				<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/baner_02.jpg"}}" alt="HD TV market review" />
+			</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-sm-9 box-tab-adv">
+		<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs tabs-wrapper clearfix"> 
+			<ul role="tablist" id="myTabs" class="nav nav-tabs"> 
+				<li class="active" role="presentation">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabOne">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/one.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabtwo">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/two.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab"  class="hot-img" href="#tabthree">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/three.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+			</ul> 
+			<div id="myTabContent" class="tab-content"> 
+				<div  id="tabOne" role="tabpanel" class="tab-pane fade active in"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div  id="tabtwo" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div  id="tabthree" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+			 </div> 
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[category-banner-252]]></title>
+      <identifier><![CDATA[category-banner-252]]></identifier>
+      <content><![CDATA[<div class="row">
+    <div class="col-md-3 col-sm-3 box-banner-adv">
+		<div class="promotion">
+			<a class="hot-img" href="#">
+				<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/baner_01.jpg"}}" alt="HD TV market review" />
+			</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-sm-9 box-tab-adv">
+		<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs tabs-wrapper clearfix"> 
+			<ul role="tablist" id="myTabs1" class="nav nav-tabs"> 
+				<li class="active" role="presentation">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabOne1">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/one1.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabtwo1">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/two1.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabthree1">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/three1.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+			</ul> 
+			<div id="myTabContent1" class="tab-content"> 
+				<div id="tabOne1" role="tabpanel" class="tab-pane fade active in"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabtwo1" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabthree1" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+			 </div> 
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[category-banner-253]]></title>
+      <identifier><![CDATA[category-banner-253]]></identifier>
+      <content><![CDATA[<div class="row">
+    <div class="col-md-3 col-sm-3 box-banner-adv">
+		<div class="promotion">
+			<a class="hot-img" href="#">
+				<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/baner_02.jpg"}}" alt="HD TV market review" />
+			</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-sm-9 box-tab-adv">
+		<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs tabs-wrapper clearfix"> 
+			<ul role="tablist" id="myTabs3" class="nav nav-tabs"> 
+				<li class="active" role="presentation">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabOne3">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/one.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabtwo3">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/two.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabthree3">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/three.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+			</ul> 
+			<div id="myTabContent3" class="tab-content"> 
+				<div id="tabOne3" role="tabpanel" class="tab-pane fade active in"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabtwo3" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabthree3" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+			 </div> 
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[category-banner-207]]></title>
+      <identifier><![CDATA[category-banner-207]]></identifier>
+      <content><![CDATA[<div class="row">
+    <div class="col-md-3 col-sm-3 box-banner-adv">
+		<div class="promotion">
+			<a class="hot-img" href="#">
+				<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/baner_02.jpg"}}" alt="HD TV market review" />
+			</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-sm-9 box-tab-adv">
+		<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs tabs-wrapper clearfix"> 
+			<ul role="tablist" id="myTabs4" class="nav nav-tabs"> 
+				<li class="active" role="presentation">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabOne4">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/one.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabtwo4">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/two.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabthree4">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/three.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+			</ul> 
+			<div id="myTabContent4" class="tab-content"> 
+				<div id="tabOne4" role="tabpanel" class="tab-pane fade active in"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabtwo4" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabthree4" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+			 </div> 
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[category-banner-249]]></title>
+      <identifier><![CDATA[category-banner-249]]></identifier>
+      <content><![CDATA[<div class="row">
+    <div class="col-md-3 col-sm-3 box-banner-adv">
+		<div class="promotion">
+			<a class="hot-img" href="#">
+				<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/baner_01.jpg"}}" alt="HD TV market review" />
+			</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-sm-9 box-tab-adv">
+		<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs tabs-wrapper clearfix"> 
+			<ul role="tablist" id="myTabs5" class="nav nav-tabs"> 
+				<li class="active" role="presentation">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabOne5">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/one1.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabtwo5">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/two1.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabthree5">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/three1.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+			</ul> 
+			<div id="myTabContent5" class="tab-content"> 
+				<div id="tabOne5" role="tabpanel" class="tab-pane fade active in"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabtwo5" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabthree5" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+			 </div> 
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[category-banner-251]]></title>
+      <identifier><![CDATA[category-banner-251]]></identifier>
+      <content><![CDATA[<div class="row">
+    <div class="col-md-3 col-sm-3 box-banner-adv">
+		<div class="promotion">
+			<a class="hot-img" href="#">
+				<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/baner_02.jpg"}}" alt="HD TV market review" />
+			</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-sm-9 box-tab-adv">
+		<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs tabs-wrapper clearfix"> 
+			<ul role="tablist" id="myTabs6" class="nav nav-tabs"> 
+				<li class="active" role="presentation">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabOne6">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/one.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabtwo6">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/two.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabthree6">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/three.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+			</ul> 
+			<div id="myTabContent6" class="tab-content"> 
+				<div id="tabOne6" role="tabpanel" class="tab-pane fade active in"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabtwo6" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabthree6" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+			 </div> 
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[category-banner-201]]></title>
+      <identifier><![CDATA[category-banner-201]]></identifier>
+      <content><![CDATA[<div class="row">
+    <div class="col-md-3 col-sm-3 box-banner-adv">
+		<div class="promotion">
+			<a class="hot-img" href="#">
+				<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/baner_02.jpg"}}" alt="HD TV market review" />
+			</a>
+		</div>
+	</div>
+	<div class="col-md-9 col-sm-9 box-tab-adv">
+		<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs tabs-wrapper clearfix"> 
+			<ul role="tablist" id="myTabs7" class="nav nav-tabs"> 
+				<li class="active" role="presentation">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabOne7">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/one.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabtwo7">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/two.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+				<li role="presentation" class="">
+					<a aria-expanded="true" data-toggle="tab" role="tab" class="hot-img" href="#tabthree7">
+						<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/three.jpg"}}" alt="HD TV market review" />
+					</a>
+				</li> 
+			</ul> 
+			<div id="myTabContent7" class="tab-content"> 
+				<div id="tabOne7" role="tabpanel" class="tab-pane fade active in"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabtwo7" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigone.jpg"}}" alt="HD TV market review" />
+				</div> 
+				<div id="tabthree7" role="tabpanel" class="tab-pane fade"> 
+					<img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/demo1/bigtwo.jpg"}}" alt="HD TV market review" />
+				</div> 
+			 </div> 
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>

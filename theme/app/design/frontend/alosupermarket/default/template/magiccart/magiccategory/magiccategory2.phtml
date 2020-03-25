@@ -1,0 +1,102 @@
+<?php
+/**
+ * Magiccart 
+ * @category 	Magiccart 
+ * @copyright 	Copyright (c) 2014 Magiccart (http://www.magiccart.net/) 
+ * @license 	http://www.magiccart.net/license-agreement.html
+ * @Author: Magiccart<team.magiccart@gmail.com>
+ * @@Create Date: 2014-05-08 22:57:12
+ * @@Modify Date: 2016-09-22 15:39:51
+ * @@Function:
+ */
+ ?>
+<?php if(!$this->getGeneralCfg('enabled')) return; ?>
+<?php if($this->getStatus() == 2) return; ?>
+<?php $selector = $this->generateRandomString(); //md5(rand()); //rand(0,666666); ?>
+
+<div class= "<?php echo $selector?> magiccategory magiccategory2">
+<?php
+$tabs = $this->getTabs();
+$ajax = json_encode($this->getProductCfg());
+$images = $this->getImages();
+$width  = 227;
+$height = 348;
+$idHtml = $this->generateRandomString();
+if(count($tabs)): ?>
+    <div class="magic-category">
+        <span class="toggle-tab mobile" style="display:none"></span>
+		<div class="block-title-tabs clearfix">
+		<?php echo $this->getTitle() ?  '<h3 class="title">'.$this->__($this->getTitle()).'</h3>' : ''; ?>
+			<ul class="magictabs toggle-content clearfix" data-ajax ='<?php echo $ajax ?>'>
+				<?php $active = $this->getTabActive();
+					$limit = $this->getNumProduct();
+					foreach ($tabs as $id => $name):
+						$status = ($id == $active) ? 'active loaded' : '';
+						echo '<li class="item '.$status.'" data-type ="'.$id.'"><span class ="title">'.$this->__($name).'</span></li>';
+					endforeach;
+				?>
+			</ul>
+		</div>
+	</div>
+<?php endif ?>
+	<div class="ajax_loading" style="display:none" data-url="<?php echo $this->getUrl('magiccategory/index/ajax2', array('_secure'=>$this->getRequest()->isSecure(), '_type' => 'direct_link'))?>">
+		<img src="<?php echo $this->getSkinUrl('magiccart/plugin/images/loading.gif')?>" alt="<?php echo $this->__('Loading...');?>"/>
+	</div>
+
+	<div class="box-product-content clearfix">
+		<div class="box-banner">
+			<?php
+				$active = $this->getTabActive();
+				foreach ($tabs as $id => $name):
+					$staticId = 'category-banner-' .$id;
+					$static = $this->getLayout()->createBlock('cms/block')->setBlockId($staticId)->toHtml();
+					if(!$static) continue;
+					$status = ($id == $active) ? 'active' : '';
+					echo '<div class="category-banner banner-'.$id.' '.$status.'">'. $static .'</div>';
+				endforeach;
+			?>
+		<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId($this->getIdentifier())->toHtml();?>
+		</div>
+		<?php 
+			$margin  = (int) $this->getData('marginColumn');
+			$slide   = json_encode($this->setFlexiselArray());
+			$options = json_encode($this->getItemsDevice());
+		?>
+		<div class="box-product">
+			<div class="content-products" data-margin="<?php echo $margin ?>" data-slider='<?php echo $slide ?>' data-options='<?php echo $options; ?>'>
+				<?php echo $this->getContentActive('magiccart/magiccategory/product/grid.phtml');?>
+			</div>
+		</div>
+
+	</div>
+	<!-- MAP -->
+	<?php echo $this->getChildHtml('product.tooltip');?>
+	<!-- MAP -->
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+	jQuery(".<?php echo $selector?>").magicproduct({
+		selector : ".<?php echo $selector?>", // Selector product grid
+	});
+// 	var slider = $(".content-products .flexisel-content").bxSlider({
+// 	moveSlides: 2,
+// 	infiniteLoop:false,
+// 	maxSlides:'4',
+// 	// "slideWidth":"140",
+// 	mode:'vertical',
+// 	minSlides:2,	
+
+// 	// //minSlides: 2,
+// 	// maxSlides: 4,
+// 	// infiniteLoop: false,
+// 	// minSlides: 3,
+// 	// moveSlides: 2,
+// 	// mode: 'vertical',
+// 	// slideMargin: 10,
+
+
+// });
+});
+</script>
+

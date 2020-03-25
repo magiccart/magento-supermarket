@@ -1,0 +1,6 @@
+1. Update 11/02/2017
+	Removed file:
+	app\design\frontend\alosupermarket\default\template\checkout\onepage\payment.phtml
+	app\design\frontend\alosupermarket\default\template\checkout\onepage\shipping.phtml
+	app\design\frontend\alosupermarket\default\template\checkout\onepage\shipping_method.phtml
+	app\design\frontend\alosupermarket\default\template\checkout\multishipping\shipping.phtml

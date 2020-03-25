@@ -1,0 +1,482 @@
+<?xml version="1.0"?>
+<root>
+  <block>
+    <item>
+      <title><![CDATA[Footer Links]]></title>
+      <identifier><![CDATA[footer_links]]></identifier>
+      <content><![CDATA[
+<ul>
+    <li><a href="{{store direct_url="about-magento-demo-store"}}">About Us</a></li>
+    <li><a href="{{store direct_url="customer-service"}}">Customer Service</a></li>
+<li class="last privacy"><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Cookie restriction notice]]></title>
+      <identifier><![CDATA[cookie_restriction_notice_block]]></identifier>
+      <content><![CDATA[<p>This website requires cookies to provide all of its features. For more information on what data is contained in the cookies, please see our <a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy page</a>. To accept cookies from this site, please click the Allow button below.</p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Top]]></title>
+      <identifier><![CDATA[block_footer_top]]></identifier>
+      <content><![CDATA[<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-md-3  col-xs-12">
+			<div class="collapsible mobile-collapsible">
+				<div class="block1 block-content-statick">
+					<a class="introduce-logo" href="#"> <img class="img-responsive logo1" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo.png"}}" />
+<img class="img-responsive logo3" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo3.png"}}" /><img class="img-responsive logo4" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo4.png"}}" /><img class="img-responsive logo5" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo5.png"}}" /><img class="img-responsive logo6" alt="" src="{{media url="wysiwyg/alothemes/static/introduce-logo6.png"}}" /></a>
+					<ul class="address-list">
+						<li class="feature-icon first">
+						<p class="no-margin"><span class="tit-name">Address:</span><span class="tit-contain">Example Street 68, Mahattan, New York, USA.</span></p>
+						</li>
+						<li class="feature-icon">
+						<p><span class="tit-name">Phone:</span><span class="tit-contain">+84 912. 345. 678</span></p>
+						</li>
+						<li class="feature-icon">
+						<p><span class="tit-name">Email:</span><span class="tit-contain">suport@alothemes.com</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-xs-12">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Company</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">facebook</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Gift Cards</a></li>
+							<li><a href="#">Order Status</a></li>
+							<li><a href="#">Returns &amp; Exchanges</a></li>
+							<li><a href="#">International</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">My Account</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">facebook</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="{{store url=""}}about-magento-demo-store/">About Us</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Affiliates</a></li>
+							<li><a href="#">Meet The Maker</a></li>
+							<li><a href="{{store url=""}}contacts/">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<div class="collapsible mobile-collapsible">
+						<h3 class="block-title heading">Support</h3>
+						<span class="toggle-tab mobile" style="display: none;"><span class="hidden">facebook</span></span>
+						<div class="block-content block-content-statick toggle-content">
+							<ul class="bullet">
+							<li><a href="#">Security</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Text Messaging</a></li>
+							<li><a href="#">Legal</a></li>
+							<li><a href="#">Supply chain</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-3  col-xs-12">
+			<div class="collapsible mobile-collapsible">
+				{{block type="tag/popular" name="tags_popular" template="tag/popular.phtml"}}
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Footer Bottom]]></title>
+      <identifier><![CDATA[block_footer_bottom]]></identifier>
+      <content><![CDATA[<div class="container">
+    <div class="trademark-help">
+		<p>Help improve your experience on SuperMarket, <span>join our Customer Experience Improvement Program now</span>. Plus, <span>tell us what you think of this page</span> !</p>
+	</div>
+	<div class="row trademark-box">
+		<div class="col-sm-12">
+			<ul class="trademark-list-top">
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/01.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/02.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/03.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/04.jpg"}}" /> </a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/05.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/06.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/07.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/08.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/09.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/010.jpg"}}" /></a></li>
+                               <li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/011.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/012.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/013.jpg"}}" /></a></li>
+				<li><a href="#"><img class="img-responsive" alt="ups" src="{{media url="wysiwyg/alothemes/static/demo1/014.jpg"}}" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-menu-box">
+		<div class="col-sm-12">
+			<ul class="footer-menu-list">
+				<li><a href="#">Online Shopping</a></li>
+				<li><a href="#">Promotions</a></li>
+				<li><a href="#">My Orders</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">Site Map</a></li>
+				<li><a href="#">Customer Service</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Most Populars</a></li>
+				<li><a href="#">New Arrivals</a></li>
+				<li><a href="#">Special Products</a></li>
+				<li><a href="#">Manufacturers</a></li>
+				<li><a href="#">Our Stores</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-12">
+			<ul class="footer-menu-list">
+				<li><a href="#">Shipping</a></li>
+				<li><a href="#">Payments</a></li>
+				<li><a href="#">Warantee</a></li>
+				<li><a href="#">Refunds</a></li>
+				<li><a href="#">Checkout</a></li>
+				<li><a href="#">Discount</a></li>
+				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="#">Policy</a></li>
+				<li><a href="#">Shipping</a></li>
+				<li><a href="#">Payments</a></li>
+				<li><a href="#">Returns</a></li>
+				<li><a href="#">Refunds</a></li>
+			</ul>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[block_map_contacts]]></title>
+      <identifier><![CDATA[block_map_contacts]]></identifier>
+      <content><![CDATA[<div class="google-map">
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8277911385558!2d-0.13108129999999998!3d51.51637529999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d183f5ea3%3A0x8e1c5b00f1b16579!2zMTIgT3hmb3JkIFN0LCBTb2hvLCBMb25kb24gVzFELCBWxrDGoW5nIFF14buRYyBBbmg!5e0!3m2!1svi!2s!4v1434261501432" height="315" width="600"></iframe>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla. </p>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[store_contact]]></title>
+      <identifier><![CDATA[store_contact]]></identifier>
+      <content><![CDATA[<div class="store-contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-3 col-md-3 store1">
+				<div class="store-item">
+				    <h3 class="block-title">Store 1</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 store2">
+				<div class="store-item">
+				    <h3 class="block-title">Store 2</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 store3">
+				<div class="store-item">
+				    <h3 class="block-title">Store 3</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-3 store4">
+				<div class="store-item">
+				    <h3 class="block-title">Store 4</h3>
+					<ul class="store_info">
+					    <li>
+							<span class="fa fa-envelope icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Email</span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@alothemes.com</a></span>
+								<span class="tit-contain"><a href="mailto:suport@alothemes.com">suport@supermarket.com</a></span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-phone icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+								<span class="tit-contain">+ 021.343.7575</span>
+							</p>
+						</li>
+						<li>
+							<span class="fa fa-map-marker icons"><span class="hidden">hidden</span></span>
+							<p class="flex">
+								<span class="tit-name">Mail Office</span>
+								<span class="tit-contain">Sed ut perspiciatis unde omnis <br> Street Name, Los Angeles</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Custom Left Category  Bestseller]]></title>
+      <identifier><![CDATA[left-category]]></identifier>
+      <content><![CDATA[<div class="block left-module block-custom-left">{{widget type="magicproduct/widget_magicproduct" identifier="best-sale" template="magiccart/magicproduct/magicproduct_custom.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu]]></title>
+      <identifier><![CDATA[block-right-menu]]></identifier>
+      <content><![CDATA[<div class="banner-menu"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-right.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Brand]]></title>
+      <identifier><![CDATA[brand]]></identifier>
+      <content><![CDATA[<!-- Block Brand -->
+<div class="brand">
+    {{widget type="shopbrand/widget_brand" template="magiccart/shopbrand/brand.phtml"}}
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Slide Demo 6]]></title>
+      <identifier><![CDATA[slide]]></identifier>
+      <content><![CDATA[<div class="slide-block container">
+          <div class="row">
+          <div class="col-sm-3 slider-left"><span class="hidden">hidden</span></div>
+         <div class="col-sm-9 header-top-right">
+          {{widget type="magicslider/widget_slide" identifier="slide-6" template="magiccart/magicslider/magicslider.phtml"}}
+          </div>
+         </div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block service]]></title>
+      <identifier><![CDATA[service]]></identifier>
+      <content><![CDATA[<!-- Block service -->
+<div class="service">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-3 col-sm-3 col-md-3 one-service">
+			   <div class="service-item">
+					<div class="icon"><img class="img-responsive" alt="services" src="{{media url="wysiwyg/alothemes/static/demo3/icon-s1.png"}}" /></div>
+					<div class="info">
+						<h3><span>Free</span> Fast Delivery</h3>
+						<p>On hundreds of Digital appliances <br> Excludes Sunday delivery</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-3 col-sm-3 col-md-3 two-service">
+				<div class="service-item">
+					<div class="icon"><img class="img-responsive" alt="services" src="{{media url="wysiwyg/alothemes/static/demo3/icon-s2.png"}}" /></div>
+					<div class="info">
+						<h3><span>Buyer</span> Protection</h3>
+						<p>On hundreds of Digital appliances <br> Excludes Sunday delivery</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-3 col-sm-3 col-md-3 three-service">
+				<div class="service-item">
+					<div class="icon"><img class="img-responsive" alt="services" src="{{media url="wysiwyg/alothemes/static/demo3/icon-s3.png"}}" /></div>
+					<div class="info">
+						<h3><span>Return</span> & Exchange</h3>
+						<p>On hundreds of Digital appliances <br> Excludes Sunday delivery</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-3 col-sm-3 col-md-3 for-service">
+				<div class="service-item">
+					<div class="icon"><img class="img-responsive" alt="services" src="{{media url="wysiwyg/alothemes/static/demo3/icon-s4.png"}}" /></div>
+					<div class="info">
+						<h3><span>Support</span> 24/7</h3>
+						<p>On hundreds of Digital appliances <br> Excludes Sunday delivery</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu Banner and Sale]]></title>
+      <identifier><![CDATA[block_right_menu_banner_sale]]></identifier>
+      <content><![CDATA[<div class="menu-banner-sale">
+<div class="menu-products-sale">{{widget type="magicproduct/widget_magicproduct" identifier="megamenu-sale" template="magiccart/magicproduct/magicproduct_menu.phtml"}}</div>
+<div class="banner-menu"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-right2.jpg"}}" alt="" /></div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Right Menu 2]]></title>
+      <identifier><![CDATA[block-right-menu2]]></identifier>
+      <content><![CDATA[<div class="banner-menu banner-menu-position"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-right3.png"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Bottom Menu]]></title>
+      <identifier><![CDATA[block-bottom-menu2]]></identifier>
+      <content><![CDATA[<div class="banner-menu banner-menu-bottom"><img class="img-responsive" src="{{media url="wysiwyg/alothemes/static/banner-menu-bottom.jpg"}}" alt="" /></div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[Block Product Types]]></title>
+      <identifier><![CDATA[block-product-types]]></identifier>
+      <content><![CDATA[ <ul class="level0 dropdown">
+		<li class="level1"><a href="{{store direct_url="smart-tvs-from-sharpusa.html"}}"><span>Single product</span></a></li>
+		<li class="level1"><a href="{{store direct_url="grouped-product.html"}}"><span>Group product</span></a></li>
+		<li class="level1"><a href="{{store direct_url="configurable-product.html"}}"><span>Configurable product</span></a></li>
+		<li class="level1"><a href="{{store direct_url="samsung-galaxy-smartphone.html"}}"><span>Product with Related</span></a></li>
+		<li class="level1"><a href="{{store direct_url="samsung-galaxy-smartphone.html"}}"><span>Product with Upsell</span></a></li>
+	</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+    <item>
+      <title><![CDATA[my-account]]></title>
+      <identifier><![CDATA[my-account]]></identifier>
+      <content><![CDATA[<ul class="links">
+	<li><h4>Account Home</h4></li>
+	<li class="first">
+		<a title="Dashboard" href="#">Dashboard</a>
+	</li>
+	<li>
+		<a title="Messages Tickets" href="#">Messages / Tickets</a>
+	</li>
+	<li class="last">
+		<a title="Help FA’Q" href="#">Help FA’Q'</a>
+	</li>
+</ul>
+<ul class="links">
+	<li><h4>Orders</h4></li>
+	<li class="first">
+		<a title="Order Status" href="#">Order Status</a>
+	</li>
+	<li class="last">
+		<a title="Find invoice" href="#">Find invoice</a>
+	</li>
+</ul>
+<ul class="links">
+	<li><h4>Options</h4></li>
+	<li class="first">
+		<a title="Account Settings" href="#">Account Settings</a>
+	</li>
+	<li>
+		<a title="Address Book" href="#">Address Book</a>
+	</li>
+	<li class="last">
+		<a title="Subscriptions" href="#">Subscriptions</a>
+	</li>
+</ul>
+<ul class="links">
+	<li><h4>Warranty / Returns</h4></li>
+	<li class="first">
+		<a title="Returns an iteam" href="#">Returns an iteam</a>
+	</li>
+	<li class="last">
+		<a title="Check Return Status" href="#">Check Return Status</a>
+	</li>
+</ul>
+<ul class="links">
+	<li><h4>Shopping</h4></li>
+	<li class="first">
+		<a title="Gift Cards" href="#">Gift Cards</a>
+	</li>
+	<li>
+		<a title="Gift Cards" href="#">Gift Cards</a>
+	</li>
+	<li class="last">
+		<a title="My Collections" href="#">My Collections</a>
+	</li>
+</ul>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </item>
+  </block>
+</root>
